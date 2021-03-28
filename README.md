@@ -5,7 +5,6 @@ By reading this, you will be able to issue tokens on CosmWasm using the Bonding 
 It is divided into sections that were given in the HackAtom Ru task.
 
 # Chapters
-
 1. Create a bonding curve contract.
 2. Buy tokens
 3. One account sends their tokens via cw20-ics20 contract to chain X.
@@ -13,3 +12,23 @@ It is divided into sections that were given in the HackAtom Ru task.
 5. New account buys on dex.
 6. New owner transfers back to origin.
 7. New owner selles on bonding curve to get back native token.
+
+# Preparation
+
+Please prepare an environment where you can use the following CLI
+
+## wasmd
+
+https://github.com/CosmWasm/wasmd
+
+## liquidityd
+
+https://github.com/tendermint/liquidity
+
+
+
+
+If you have any questions, there are helpful people on Discord.
+
+
+
