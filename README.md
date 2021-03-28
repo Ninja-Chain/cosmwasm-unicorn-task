@@ -17,15 +17,13 @@ It is divided into sections that were given in the HackAtom Ru task.
 
 Please prepare an environment where you can use the following CLI
 
-## wasmd
+**wasmd**
 
 https://github.com/CosmWasm/wasmd
 
-## liquidityd
+**liquidityd**
 
 https://github.com/tendermint/liquidity
-
-
 
 
 If you have any questions, there are helpful people on Discord.
