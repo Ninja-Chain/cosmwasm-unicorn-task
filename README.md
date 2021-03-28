@@ -7,7 +7,7 @@ It is divided into sections that were given in the HackAtom Ru task.
 # Chapters
 
 1. Create a bonding curve contract.
-2. Buy tokens (3 different accounts).
+2. Buy tokens
 3. One account sends their tokens via cw20-ics20 contract to chain X.
 4. List tokens on dex on remote chain.
 5. New account buys on dex.
