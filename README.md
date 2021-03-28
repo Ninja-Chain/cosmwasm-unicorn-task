@@ -1,6 +1,7 @@
 # cosmwasm-unicorn-task
 
 By reading this, you will be able to issue tokens on CosmWasm using the Bonding Curve and list your tokens on Cosmos Hub's DEX.
+
 It is divided into sections that were given in the HackAtom Ru task.
 
 # Chapters
