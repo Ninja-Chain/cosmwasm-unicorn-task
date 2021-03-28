@@ -1,6 +1,10 @@
 # 2.Buy tokens
 
+For the issued cw20-bonding contract, transfer the native token. CW20 tokens will be issued according to the amount of native tokens sent.
+
 - Send a native token to the created contract and issue a new CW20 token.
+
+Don't forget the amount option.
 
 ```
 $ EXECUTE='{"buy":{}}'
