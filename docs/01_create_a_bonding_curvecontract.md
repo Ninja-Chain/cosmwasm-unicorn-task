@@ -21,7 +21,7 @@ $ wasmd tx wasm store cw20_bonding.wasm --from fred --chain-id hackatom-ru --gas
 - Checking the deployed contract
 
 ```
-wasmd query wasm list-code --node https://rpc.cosmwasm.hub.hackatom.org:443
+$ wasmd query wasm list-code --node https://rpc.cosmwasm.hub.hackatom.org:443
 ```
 
 - Initialize the contract
@@ -29,6 +29,12 @@ wasmd query wasm list-code --node https://rpc.cosmwasm.hub.hackatom.org:443
 $ INIT=$(jq -n '{"name":"naushika","symbol":"NAU","decimals":6,"reserve_denom":"ucosm","reserve_decimals":6,"curve_type": {"square_root":{"slope":"100",scale:5}}}')
 $ wasmd tx wasm instantiate 17 "$INIT" --from fred --label "NAUSHIKA" --node https://rpc.cosmwasm.hub.hackatom.org:443 --chain-id hackatom-ru --gas-prices 0.01ucosm
 ```
+
+- Get the address of the initialized contract
+```
+$ wasmd query wasm list-contract-by-code $CONTRACT_ID --node https://rpc.cosmwasm.hub.hackatom.org:443
+```
+
 
 - Check the information of the issued token.
 ```
